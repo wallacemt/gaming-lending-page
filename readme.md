@@ -10,7 +10,7 @@ O objetivo deste projeto é criar uma landing page responsiva e interativa para 
 
 - **🖼️ Modais Interativos**: Adição de modais para exibir informações detalhadas sobre os jogos ou serviços da página. Estes modais são acionados por botões e contêm conteúdo como formulários, descrições e opções de compra.
   
-- **🎮 Novo Slide no Carrossel (Zelda)**: Inclusão de um novo slide no carrossel utilizando imagens fornecidas, contendo informações sobre um novo jogo ou serviço (Zelda). O slide inclui um botão com link externo relevante.
+- **🎮 Novo Slide no Carrossel (Zelda è Donkey Kong)**: Inclusão de um novo slide no carrossel utilizando imagens, contendo informações sobre um novo jogo ou serviço O slide inclui um botão com link externo relevante.
 
 - **📱 Responsividade**: A página foi completamente adaptada para ser responsiva, ajustando o layout conforme o tamanho da tela (mobile, tablet, desktop). Elementos como imagens, textos e botões foram ajustados para melhorar a experiência do usuário.
 
@@ -36,12 +36,12 @@ Para visualizar a landing page em seu ambiente local, siga os passos abaixo:
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/seu-usuario/landing-page-nintendo.git
+    git clone https://github.com/seu-usuario/gaming-lending-page.git
     ```
 
 2. **Entre na pasta do projeto**:
     ```bash
-    cd landing-page-nintendo
+    cd gaming-lending-page
     ```
 
 3. **Abra o arquivo HTML no navegador**:
