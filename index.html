@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamimg Lending Page</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add_circle" />
+    <link rel="shortcut icon" href="../gamimg-lending-page/assets/img/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/img/nintendo-switch.png" alt="logo-nintendo-switch">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://nintendo.com/us/whatsnew" target="_blank">Switch News</a></li>
+                <li><a href="http://nintendo.com/us/online" target="_blank">Switch Online</a></li>
+                <li><a href="http://nintendo.com/us/classic-games/" target="_blank">Switch Classic</a></li> 
+            </ul>
+        </nav>
+        <button id="login-btn">Login</button>
+        <div class="search">
+            <input type="text" name="" placeholder="Search" id="gameInput">
+            <i class="fas fa-search"></i>
+        </div>  
+
+        <label class="hamburger">
+            <input type="checkbox" />
+            <svg viewBox="0 0 32 32">
+              <path
+                d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+                class="line line-top-bottom"
+              ></path>
+              <path d="M7 16 27 16" class="line"></path>
+            </svg>
+        </label>
+
+    </header>
+
+    <main>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <article class="swiper-slide" id="slide-1">
+                    <figure>
+                        <img src="./assets/img/super_mario_odyssey_dinosaur_4k.jpeg" alt="Banner do Super Mario Odyssey" class="frontscene">
+                    </figure>
+                    <div class="backscene"></div>
+
+                    <div class="banner">
+                        <div class="left">
+                            <div class="features">
+                                <div class="rating">
+                                    <span class="score">9.2</span>
+                                    <div class="content">
+                                        <span class="subtitle">M E T A S C O R E</span>
+                                        <h4>Ótimo</h4>
+                                        <span>O classico Mario de cara nova</span>
+                                    </div>
+                                </div>
+                                <div class="pricing">
+                                    <a href="" target="_blank" class="buy-btn">
+                                        <span class="material-symbols-outlined" id="icon">add_circle</span>
+                                    </a>
+                                    <div class="content">
+                                        <span class="subtitle">Super Mario Odyssey</span>
+                                        <h4>COMPRE AGORA</h4>
+                                        <span>Plataforma, Aventura, Ação</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1>Mario</h1>
+                        </div>
+                        <img src="./assets/img/mario.png" alt="Mario">
+                        <div class="right">
+                            <ul class="description">
+                                <li>
+                                    Data de Lançamento
+                                    <p>27 de Outubro</p>
+                                </li>
+                                <li>
+                                    <h4>Modos de jogo</h4>
+                                    <p>Modo TV, Modo Semiportátil, Modo Portátil</p>
+                                </li>
+                            </ul>
+
+                            <div class="trailer">
+                                <h2>Assista ao Trailer</h2>
+                                <iframe width="1280" height="720" src="https://www.youtube.com/embed/5kcdRBHM7kM"
+                                    title="Super Mario Odyssey Trailer" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide" id="slide-2">
+                    <figure>
+                        <img src="./assets/img/pokemon-legends-arceus.jpeg" alt="Banner do Pokemon Legends Arceus">
+                    </figure>
+                    <div class="backscene"></div>
+                    <div class="banner">
+                        <div class="left">
+                            <div class="features">
+                                <div class="rating">
+                                    <span class="score">8.3</span>
+                                    <div class="content">
+                                        <span class="subtitle">M E T A S C O R E</span>
+                                        <h4>Bom</h4>
+                                        <span>Prepare-se para uma aventura Pokemon!</span>
+                                    </div>
+                                </div>
+                                <div class="pricing">
+                                    <a href="" target="_blank" class="buy-btn">
+                                        <span class="material-symbols-outlined" id="icon">add_circle</span>
+                                    </a>
+                                    <div class="content">
+                                        <span class="subtitle">Pokemon Legends</span>
+                                        <h4>COMPRE AGORA</h4>
+                                        <span>Ação, RPG</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1 class="pokemon-title">Pokemon</h1>
+                        </div>
+                        <img src="./assets/img/red.png" alt="Treinador Pokemon Red" class="pokemon">
+                        <div class="right">
+                            <ul class="description">
+                                <li>
+                                    Data de Lançamento
+                                    <p>28 de Janeiro</p>
+                                </li>
+                                <li>
+                                    <h4>Modos de jogo</h4>
+                                    <p>Modo TV, Modo Semiportátil, Modo Portátil</p>
+                                </li>
+                            </ul>
+                            <div class="trailer">
+                                <h2>Assista ao Trailer</h2>
+                                <iframe width="1280" height="720" src="https://www.youtube.com/embed/I4RynqpahT8?si=zstmtfFmB3TrTh8d"
+                                    title="Super Mario Odyssey Trailer" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide" id="slide-3">
+                    <figure>
+                        <img src="./assets/img/The-Legend-of-Zelda-Breath-of-the-Wild.jpeg" alt="Banner do Pokemon Legends Arceus">
+                    </figure>
+                    <div class="backscene"></div>
+                    <div class="banner">
+                        <div class="left">
+                            <div class="features">
+                                <div class="rating">
+                                    <span class="score">9.7</span>
+                                    <div class="content">
+                                        <span class="subtitle">M E T A S C O R E</span>
+                                        <h4>Bom</h4>
+                                        <span>Se aventure no mundo de Zelda</span>
+                                    </div>
+                                </div>
+                                <div class="pricing">
+                                    <a href="" target="_blank" class="buy-btn">
+                                        <span class="material-symbols-outlined" id="icon">add_circle</span>
+                                    </a>
+                                    <div class="content">
+                                        <span class="subtitle">Zelda Breath of the Wild</span>
+                                        <h4>COMPRE AGORA</h4>
+                                        <span>Aventura, Ação, Rpg, Outro</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1 class="zelda-title">Zelda</h1>
+                        </div>
+                        <img src="./assets/img/link.png" alt="Personagem principal do zelda">
+                        <div class="right">
+                            <ul class="description">
+                                <li>
+                                    Data de Lançamento
+                                    <p>28 de Janeiro</p>
+                                </li>
+                                <li>
+                                    <h4>Modos de jogo</h4>
+                                    <p>Modo TV, Modo Semiportátil, Modo Portátil</p>
+                                </li>
+                            </ul>
+                            <div class="trailer">
+                                <h2>Assista ao Trailer</h2>
+                                <iframe width="1280" height="720" src="https://www.youtube.com/embed/1rPxiXXxftE?si=3zOxHnku3W3yxJuF"
+                                    title="Super Mario Odyssey Trailer" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide" id="slide-4">
+                    <figure>
+                        <img src="./assets/img/Donkey-Kong-Country-Tropical-Freeze.jpg" alt="Banner do Donkey Kong Country Tropical Freeze">
+                    </figure>
+                    <div class="backscene"></div>
+                    <div class="banner">
+                        <div class="left">
+                            <div class="features">
+                                <div class="rating">
+                                    <span class="score">9.2</span>
+                                    <div class="content">
+                                        <span class="subtitle">M E T A S C O R E</span>
+                                        <h4>Bom</h4>
+                                        <span>Se aventure no mundo de Donkey Kong</span>
+                                    </div>
+                                </div>
+                                <div class="pricing">
+                                    <a href="" target="_blank" class="buy-btn">
+                                        <span class="material-symbols-outlined" id="icon">add_circle</span>
+                                    </a>
+                                    <div class="content">
+                                        <span class="subtitle">Donkey Kong Country Tropical Freeze</span>
+                                        <h4>COMPRE AGORA</h4>
+                                        <span>Plataforma, Aventura, Outro</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1 class="donkey-title">Donkey Kong</h1>
+                        </div>
+                        <img src="./assets/img/donkey-kong.png" alt="Personagem principal do Donkey Kong">
+                        <div class="right">
+                            <ul class="description">
+                                <li>
+                                    Data de Lançamento
+                                    <p>04 de Fevereiro</p>
+                                </li>
+                                <li>
+                                    <h4>Modos de jogo</h4>
+                                    <p>Modo TV, Modo Semiportátil, Modo Portátil</p>
+                                </li>
+                            </ul>
+                            <div class="trailer">
+                                <h2>Assista ao Trailer</h2>
+                                <iframe width="1280" height="720" src="https://www.youtube.com/embed/1psp2t0Zi9o?si=NKGR9M_Zfe2MArMZ"
+                                    title="Super Mario Odyssey Trailer" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </main>
+
+    <div class="modal-login-container">
+        <div class="modal-login">
+            <div class="modal-login-header">
+                <h2>Login</h2>
+            </div>
+            <div class="modal-login-form">
+                <form>
+                    <div class="input-field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="Insira seu email">
+                    </div>
+                    <div class="input-field">
+                        <label for="password">Senha</label>
+                        <input type="password" name="password" id="password" required placeholder="Insira sua senha">
+                    </div>
+                    <button type="submit">Entrar</button>
+                    <button id="create-btn">Criar Conta</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
